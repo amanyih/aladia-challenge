@@ -55,13 +55,13 @@ const components: { title: string; href: string; description: string }[] = [
 </script>
 
 <template>
-  <div class="flex items-center justify-between px-2">
+  <div class="flex items-center justify-between pl-2">
     <img
-      src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg"
+      src="https://i.ibb.co/QnJ7Bws/default-meta-image-v2-2-1-removebg-preview.png"
       class="w-14 h-6"
       alt=""
     />
-    <NavigationMenu class="p-4 items-center justify-between">
+    <NavigationMenu class="py-3 items-center justify-between">
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuTrigger>Categories</NavigationMenuTrigger>
