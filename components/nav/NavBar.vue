@@ -57,13 +57,12 @@ const components: { title: string; href: string; description: string }[] = [
 <template>
   <NavigationMenu class="p-4 items-center justify-between">
     <NavigationMenuList>
-      <NavigationMenuItem>
-        <img
-          src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg"
-          class="h-6 w-auto"
-          alt=""
-        />
-      </NavigationMenuItem>
+      <img
+        src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg"
+        class="h-6 w-auto"
+        alt=""
+      />
+
       <NavigationMenuItem>
         <NavigationMenuTrigger>Categories</NavigationMenuTrigger>
         <NavigationMenuContent>
