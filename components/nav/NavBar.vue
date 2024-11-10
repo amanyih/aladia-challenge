@@ -58,7 +58,7 @@ const components: { title: string; href: string; description: string }[] = [
   <div class="flex items-center justify-between px-2">
     <img
       src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg"
-      class="h-6 w-auto"
+      class="w-14 h-6"
       alt=""
     />
     <NavigationMenu class="p-4 items-center justify-between">
